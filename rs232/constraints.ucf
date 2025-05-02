@@ -1,0 +1,38 @@
+NET clk LOC = "B8";
+NET TxD_start LOC = "G12";
+NET TxD_data[0] LOC = "P11";
+NET TxD_data[1] LOC = "L3";
+NET TxD_data[2] LOC = "K3";
+NET TxD_data[3] LOC = "B4";
+NET TxD_data[4] LOC = "G3";
+NET TxD_data[5] LOC = "F3";
+NET TxD_data[6] LOC = "E2";
+NET TxD_data[7] LOC = "N3";
+
+NET TxD LOC = "A9";
+NET RxD LOC = "B7";
+NET next  LOC = "C11";
+NET reset LOC = "A7";
+NET next CLOCK_DEDICATED_ROUTE =FALSE;
+//NET cntr LOC = "C5";
+
+NET RxD_data1[0] LOC = "M5";
+NET RxD_data1[1] LOC = "M11";
+NET RxD_data1[2] LOC = "P7";
+NET RxD_data1[3] LOC = "P6";
+NET RxD_data1[4] LOC = "N5";
+NET RxD_data1[5] LOC = "N4";
+NET RxD_data1[6] LOC = "P4";
+NET RxD_data1[7] LOC = "G1";
+
+NET anode[0] LOC = "K14";
+NET anode[1] LOC = "M13";
+NET anode[2] LOC = "J12";
+NET anode[3] LOC = "F12";
+NET num[0] LOC = "L14";
+NET num[1] LOC = "H12";
+NET num[2] LOC = "N14";
+NET num[3] LOC = "N11";
+NET num[4] LOC = "P12";
+NET num[5] LOC = "L13";
+NET num[6] LOC = "M12";
