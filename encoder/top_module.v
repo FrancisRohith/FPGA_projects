@@ -3,16 +3,13 @@ module top_module(
 	input A,
 	input B,
 	input reset,
-	output [1:0] LED,
+	//input [7:0] angle,
 	output [3:0] anode,
-	output [7:0] angle_out,
-	output [7:0] num
+	output [6:0] num, 
+	output up_count
+	//output [2:0] state
     );
-  
-	wire [8:0] angle; 
-	wire [7:0] encout;
-	assign angle_out = angle[7:0];
-	encoder enc(.clk(clk), .A(A), .B(B), .reset(reset), .angle(angle), .encout(encout), .LED(LED));
-	seg7_display seg7(.clk(clk), .reset(reset), .angle(angle), .anode(anode), .num(num));
-
+	wire [8:0] angle;
+	encoder enc(.A(A), .B(B), .clk(clk), .reset(reset), .angle(angle), .up_count(up_count));
+	seg7_display seg7(.clk(clk), .angle(angle), .anode(anode), .num(num));
 endmodule
