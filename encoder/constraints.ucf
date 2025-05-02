@@ -1,0 +1,18 @@
+NET anode[0] LOC = "K14";
+NET anode[1] LOC = "M13";
+NET anode[2] LOC = "J12";
+NET anode[3] LOC = "F12";
+NET num[0] LOC = "L14";
+NET num[1] LOC = "H12";
+NET num[2] LOC = "N14";
+NET num[3] LOC = "N11";
+NET num[4] LOC = "P12";
+NET num[5] LOC = "L13";
+NET num[6] LOC = "M12";
+
+NET clk LOC = "B8";
+NET A LOC = "A9";
+NET B LOC = "B9";
+NET reset LOC = "G12";
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+NET up_count LOC = "M5";
