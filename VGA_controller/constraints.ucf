@@ -1,0 +1,13 @@
+// BASYS 2
+NET clk LOC = "B8";
+NET reset LOC = "A7";
+NET rgb[0] LOC = "C14";
+NET rgb[1] LOC = "D13";
+NET rgb[2] LOC = "F13";
+NET rgb[3] LOC = "F14";
+NET rgb[4] LOC = "G13";
+NET rgb[5] LOC = "G14";
+NET rgb[6] LOC = "H13";
+NET rgb[7] LOC = "J13";
+NET hsync LOC = "J14";
+NET vsync LOC = "K13";
