@@ -82,7 +82,8 @@ module PWM #(parameter max_count = 7'b1100100)(
 			s <= s + 1;
 		else
 			s <= 0;
-	assign tick = (s == 10'd1000);
+	assign tick = (s == 10'd1000);  // to decrease the speed increment or decrement
+	
 	always @(posedge clk) 
 	if(inc && (pulse_width < max_count) && tick)
 		pulse_width <= pulse_width + 1; 
