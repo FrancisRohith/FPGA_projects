@@ -1,0 +1,8 @@
+// Basys 2
+
+NET clk LOC = "B8";
+NET inc LOC = "C11";
+NET dec LOC = "M4";
+NET start LOC = "G12";
+NET pwm_out LOC = "C5";
+NET pwm_light LOC = "M5";
